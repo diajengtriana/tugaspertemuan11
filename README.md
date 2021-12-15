@@ -8,8 +8,10 @@ Pada latuhan pertemuan 11 saya diberi soal :
 # Jawab
 Nomor 1
 Before
+
 def a(x):
     return x**2
 
 After
+
 a=lambda x: (x**2)
