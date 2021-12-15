@@ -139,6 +139,12 @@ Hasil output apabila memilih ubah (2)
 
 Hasil ouput apabila memilih hapus (3)
 
+<img width="487" alt="outputHapus1" src="https://user-images.githubusercontent.com/92905452/146235930-229c500a-ba53-4921-a084-4d9f58980f39.png">
+
 Hasil output apabila memilih lihat (4)
 
+<img width="485" alt="outputLihat" src="https://user-images.githubusercontent.com/92905452/146235984-9d3f893a-2478-49b0-9001-5f87938338d9.png">
+
 Hasil output apabila memilih keluar (5)
+
+<img width="322" alt="outputKeluar" src="https://user-images.githubusercontent.com/92905452/146236070-0857f6cb-6492-4d2d-8eab-663c20531ede.png">
