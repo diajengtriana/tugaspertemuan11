@@ -126,9 +126,16 @@ Dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
 
 Hasil output apabila memilih tambah (1)
 
-Hasil output apabila memilih tambah lagi (1)
+<img width="689" alt="outputTambah" src="https://user-images.githubusercontent.com/92905452/146235108-f2f89242-c690-4277-b2e1-0dd558cff7e5.png">
+
+Hasil output memilih tambah lagi (1)
+
+<img width="280" alt="outputTambahLagi" src="https://user-images.githubusercontent.com/92905452/146235156-683056d3-69e3-4be4-9bf3-abcee3f396f3.png">
 
 Hasil output apabila memilih ubah (2)
+
+<img width="275" alt="outputUbah" src="https://user-images.githubusercontent.com/92905452/146235222-73aa3860-8f56-4dde-ad27-76af5871ca97.png">
+
 
 Hasil ouput apabila memilih hapus (3)
 
