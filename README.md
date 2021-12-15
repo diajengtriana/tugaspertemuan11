@@ -10,10 +10,9 @@ Nomor 1
 
 Before
 
-def a(x):
-    
-    return x**2
+    def a(x):
+        return x**2
 
 After
 
-a=lambda x: (x**2)
+    a=lambda x: (x**2)
