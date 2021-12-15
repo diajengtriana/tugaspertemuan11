@@ -61,6 +61,59 @@ pertama saya membuat looping agar program terus berjalan
 
     while True:
     
-    print('\ntambah\t(1)\nubah\t(2)\nhapus\t(3)\nlihat\t(4)\nkeluar\t(5) ')                                                                                     
+        print('\ntambah\t(1)\nubah\t(2)\nhapus\t(3)\nlihat\t(4)\nkeluar\t(5) ')                                                                                     
     
-    c = input("\nsilahkan masukan pilihan : ")                              
+        c = input("\nsilahkan masukan pilihan : ")                              
+
+Lalu saya membuat format if untuk memasukan pilihan , sebagai contoh apabila memilih (1) akan menambah data
+
+if (c.lower() == '1'):                                               
+        
+        print('\nTambah Data Mahasiswa Baru')
+        
+        nama= input("Masukkan Nama\t\t: ")                                        
+        
+        nim= input("Masukkan NIM\t\t: ")                                         
+        
+        nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))                              
+        
+        nilaiUts= int(input("Masukkan Nilai UTS\t: "))                                   
+        
+        nilaiUas= int(input("Masukkan Nilai UAS\t: "))                                    
+        
+        nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)              
+        
+        dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                         
+        
+        print("\nData Berhasil Ditambahkan!")
+        
+Saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
+
+    elif (c.lower() == '2'):                                                                    
+        
+        print('\nMengedit Data Mahasiswa')
+        
+        nama = input("Masukkan Nama: ")                                                         
+        
+        if nama in dataMhs.keys():                              
+            
+            nim= input("Masukkan NIM Baru\t: ")                              
+            
+            nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))                           
+            
+            nilaiUts= int(input("Masukkan Nilai UTS\t: "))                           
+            
+            nilaiUas= int(input("Masukkan Nilai UAS\t: "))                           
+            
+            nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)          
+            
+            dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                      
+            
+            print("\nData Berhasil Di Update!")
+            
+Dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
+
+    
+    else:
+        
+        print("\nMohon maaf input salah\n\nSilahkan pilih menu yang tersedia: ")                                                                                                            
