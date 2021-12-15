@@ -50,6 +50,10 @@ After
     
     d=lambda s: "".join(set(s))
     
+# Output
+
+<img width="719" alt="ouputLatihan" src="https://user-images.githubusercontent.com/92905452/146234165-5a3c5e0f-ce90-431e-bfaa-8ea38fde81f0.png">
+    
 # Praktikum
 Pada praktikum saya diberi soal sebagai berikut :
 
@@ -67,7 +71,7 @@ pertama saya membuat looping agar program terus berjalan
 
 Lalu saya membuat format if untuk memasukan pilihan , sebagai contoh apabila memilih (1) akan menambah data
 
-if (c.lower() == '1'):                                               
+    if (c.lower() == '1'):                                               
         
         print('\nTambah Data Mahasiswa Baru')
         
@@ -116,4 +120,18 @@ Dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
     
     else:
         
-        print("\nMohon maaf input salah\n\nSilahkan pilih menu yang tersedia: ")                                                                                                            
+        print("\nMohon maaf input salah\n\nSilahkan pilih menu yang tersedia: ")   
+        
+# Output
+
+Hasil output apabila memilih tambah (1)
+
+Hasil output apabila memilih tambah lagi (1)
+
+Hasil output apabila memilih ubah (2)
+
+Hasil ouput apabila memilih hapus (3)
+
+Hasil output apabila memilih lihat (4)
+
+Hasil output apabila memilih keluar (5)
